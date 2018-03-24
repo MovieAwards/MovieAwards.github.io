@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.page {
+
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+	max-width: 1200px; 
+	margin: auto;
+}
+
+.pane-title {
+	text-align: center;
+	font-family: Futura,Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	color: #b7a064;
+	text-transform: uppercase;
+}
+
+.header-divider {
+	width: 740px;
+	background: transparent url("images/Divider-Tablet.png") no-repeat 50%;
+	height: 2px;
+	margin: auto;
+}
+
+.nominee {
+	font-size: 11px;
+	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 500;
+}
+
+.winner {
+	color: #b7a064;
+}
+
+.runner-up {
+	color: #6f7376
+}
+
+.normal-nominee {
+	color: #999
+}
+
+.bowser {
+	color: #ff0000;
+}
+
+.nomination {
+	color: #69001d;
+	font-size: 24px;
+	font-family: "garamond-premier-pro-display",Georgia,"Times New Roman",Times,serif;
+}
+
+.movie {
+	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Futura";
+	font-style: normal;
+	font-weight: 300;
+	src:
+		url("//ddoie2e1uy9qo.cloudfront.net/styles/fonts/26091050-06ef-4fd5-b199-21b27c0ed85e.woff2")
+		format("woff2"),
+		url("//ddoie2e1uy9qo.cloudfront.net/styles/fonts/cca525a8-ad89-43ae-aced-bcb49fb271dc.woff")
+		format("woff"),
+		url("//ddoie2e1uy9qo.cloudfront.net/styles/fonts/14d6bf5d-15f1-4794-b18e-c03fb9a5187e.svg#14d6bf5d-15f1-4794-b18e-c03fb9a5187e")
+		format("svg");
+}
